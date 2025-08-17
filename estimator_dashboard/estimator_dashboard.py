@@ -21,8 +21,8 @@ unique_makes  = sorted(df_cars['Make'].unique())
 unique_states = sorted(df_cars['State'].unique())
 
 # Load model and scaler
-final_model = joblib.load(REPO_ROOT / "models" / "final_model.joblib")
-scaler      = joblib.load(REPO_ROOT / "models" / "final_model.joblib")
+final_model = joblib.load(REPO_ROOT/'models'/'final_model.joblib')
+scaler      = joblib.load(REPO_ROOT/'models'/'final_model.joblib')
 
 # Welcome message on sidebar
 st.sidebar.title('Welcome to the Vehicle Value Estimator!')
