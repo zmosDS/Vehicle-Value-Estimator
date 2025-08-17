@@ -5,6 +5,8 @@ import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+REPO_ROOT = Path(__file__).resolve().parents[1]
+
 # Load both datasets and combine for biggest range of features
 julyData   = pd.read_csv(REPO_ROOT/'data'/'cleaned_data_july_21st.csv')
 augustData = pd.read_csv(REPO_ROOT/'data'/'cleaned_data_aug_16th.csv')
