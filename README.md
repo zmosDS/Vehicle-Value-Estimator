@@ -8,11 +8,12 @@ The project showcases a full end-to-end data science pipeline, from data collect
 
 ## Project Structure
 
-- **`data_collection/`**: Python scripts used for web scraping from Cars.com.
-- **`data/`**: Contains raw and cleaned datasets used for training and validation.
-- **`data_analysis/`**: Includes EDA and feature engineering notebooks.
-- **`modeling/`**: Jupyter notebooks documenting model comparison, optimization, evaluation, and validation processes.
-- **`vehicle_value_estimator_dashboard/`**: Code for the deployment-ready dashboard.
+- **`data_collection/`**: Python scripts used for web scraping from Cars.com.  
+- **`data/`**: Contains raw and cleaned datasets used for training and validation.  
+- **`data_analysis/`**: Includes EDA and feature engineering notebooks.  
+- **`modeling/`**: Jupyter notebooks and scripts documenting model comparison, optimization, evaluation, and validation processes.  
+- **`models/`**: Saved model files (`.pkl`) used for deployment.  
+- **`estimator_dashboard/`**: Code for the deployment-ready Streamlit dashboard.  
 
 ## How to Run the Project
 
