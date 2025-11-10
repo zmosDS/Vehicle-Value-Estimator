@@ -1,4 +1,4 @@
-# Vehicle Value Estimator
+# Car Value Predictor
 
 ## Overview
 
